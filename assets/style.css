@@ -58,35 +58,7 @@ h1 {
   margin-left: 20px;
   padding: 10px;
 }
-aside {
-  height: 100vh;
-  margin-top: 2px;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  margin-top: auto;
-}
 
-aside h2 {
-  color: #fff;
-  font-size: 15px;
-  text-align: center;
-}
-aside input {
-  border-radius: 5px;
-  border: #ccc 2px solid;
-}
-aside ul {
-  color: #fff;
-  list-style: none;
-}
-aside ul li {
-  padding: 0;
-  margin-left: 10px;
-}
 .secao main {
   width: 100px;
   height: 100px;
@@ -194,4 +166,53 @@ nav li:hover {
 h1 {
   margin: 0;
   text-align: center;
+}
+section {
+  margin-bottom: 200px;
+}
+
+section p {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+section h2 {
+  text-align: center;
+  text-decoration: underline 2px;
+  padding: 40px;
+}
+section img {
+  width: 400px;
+  background-size: cover;
+}
+.img-pc {
+  display: flex;
+  justify-content: center;
+}
+.description {
+  margin: auto;
+  width: 500px;
+  padding: auto;
+  text-align: center;
+}
+#options {
+  display: flex;
+}
+footer {
+  background-color: #435bb2b4;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  color: #fff;
+}
+footer details {
+  width: 200px;
 }
